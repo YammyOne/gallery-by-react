@@ -1,0 +1,30 @@
+html,body{
+  background-color:green;
+  width:100%;
+  height:100%;
+}
+
+
+
+.content{
+  width:100%;
+  height:100%;  
+}
+
+/*stage -- start*/
+.stage{
+  position:relative;//方便定位controller div
+  width:100%;
+  height:680px;//--高为100%
+}
+/*stage -- end*/
+
+
+/*image -- start*/
+.img-sec{
+  position:relative;//方便定位图片
+  width:100%;
+  height:100%; 
+  overflow:hidden;//图片超出范围要隐藏
+  background-color:#ddd;
+  perspective: 1800px;//使用了auto-prefisher-loaer会自动在perspective的前面添加-webkit-
