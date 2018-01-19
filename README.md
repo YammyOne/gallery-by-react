@@ -46,7 +46,14 @@ Linux或者mac环境下：cnpm ls -g --depth=1 2>/dev/null | grep generator- <br
 ## 推送到 GitHub Page：
 ` git push`<br>
 
-
+# 遇到的问题
+* ## .scss文件无效 报错：cannot find module 'node-sass'
+## 解决办法：通过淘宝的npm镜像安装node-sass
+### 安装cnpm
+` $ npm install -g cnpm --registry=https://registry.npm.taobao.org`  <br>
+### 安装 node-sass
+` $ cnpm install node-sass `<br>
+ps:npm是美国的服务器，安装需要翻墙，速度很慢且可能失败，使用淘宝提供的cnpm更有效 <br>
 
 
 
