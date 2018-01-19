@@ -6,7 +6,8 @@ https://github.com/imzyf/gallery-by-react <br>
 https://github.com/GigHubAccount/gallery-by-react
 # 技术栈
 * `React `框架
-* `YEOMAN` 前端工具   [The web's scaffolding tool for modern webapps | Yeoman]( http://yeoman.io/)
+* `ES6`语法
+* `YEOMAN` 前端工具   [The web's scaffolding tool for modern webapps | Yeoman]( http://yeoman.io/)
 * `Webpack` 前端自动化打包工具
 * `HTML5/CSS3`
 * `SCSS`编辑器
