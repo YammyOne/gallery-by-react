@@ -9,6 +9,9 @@ https://github.com/GigHubAccount/gallery-by-react
 * `Webpack` 前端自动化打包工具
 * `HTML5/CSS3`
 * `SCSS`编辑器
+# 项目搭建
+安装 Yeoman
+--------
 
 
 
