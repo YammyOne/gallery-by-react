@@ -48,14 +48,14 @@ Linux或者mac环境下：cnpm ls -g --depth=1 2>/dev/null | grep generator- <br
 
 # 遇到的问题
 ## 1 .scss文件无效 报错：cannot find module 'node-sass'
-### 解决办法：通过淘宝的npm镜像安装node-sass
-### 安装cnpm
+ 解决办法：通过淘宝的`npm`镜像安装`node-sass` <br>
+ 安装`cnpm`<br>
 ` $ npm install -g cnpm --registry=https://registry.npm.taobao.org`  <br>
-### 安装 node-sass
+ 安装 `node-sass`<br>
 ` $ cnpm install node-sass `<br>
 ps:npm是美国的服务器，安装需要翻墙，速度很慢且可能失败，使用淘宝提供的cnpm更有效 <br>
-## 2 git push到 GitHub时报错：fatal: unable to access 'https://github.com/YammyOne/gallery-by-react.git/': The requested URL returned error: 403
-### 解决办法：在.git文件夹下的config文件中远程仓库url添加username@，如下
+## 2 git push到 GitHub时报错：fatal: unable to access 'https://github.com/YammyOne/gallery-by-react.git/': The requested URL returned error: `403`
+ 解决办法：在`.git`文件夹下的`config`文件中远程仓库`url`添加`username@`，如下<br>
 ```
 repositoryformatversion = 0
     filemode = false
@@ -71,5 +71,22 @@ repositoryformatversion = 0
     merge = refs/heads/master
 
 ```
+    再次 git push 
+    在弹框中输入github账户的用户名和密码即可成功！
+ 若继续报错`403`，则 再次修改，添加`username:password@`，如下 <br>
+ ```
+ repositoryformatversion = 0
+    filemode = false
+    bare = false
+    logallrefupdates = true
+    symlinks = false
+    ignorecase = true
+[remote "origin"]
+    url = https://YammyOne:mypassword@github.com/YammyOne/gallery-by-react.git
+    fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+    remote = origin
+    merge = refs/heads/master
 
+ ```
 
