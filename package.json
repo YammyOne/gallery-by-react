@@ -22,7 +22,7 @@
   "keywords": [],
   "author": "Your name here",
   "devDependencies": {
-    "autoprefixer": "^7.2.4",
+    "autoprefixer": "^7.2.5",
     "babel-core": "^6.26.0",
     "babel-eslint": "^6.0.0",
     "babel-loader": "^6.4.1",
@@ -54,6 +54,7 @@
     "null-loader": "^0.1.1",
     "open": "0.0.5",
     "phantomjs-prebuilt": "^2.0.0",
+    "postcss-loader": "^2.0.10",
     "react-addons-test-utils": "^15.0.0",
     "react-hot-loader": "^1.2.9",
     "rimraf": "^2.4.3",
