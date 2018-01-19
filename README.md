@@ -41,7 +41,7 @@ https://github.com/GigHubAccount/gallery-by-react
 	`npm install -g yo` <br>
 查看版本 <br>
 `yo --version` <br>
-安装 generator-react-webpack <br>
+安装 generator-react-webpack [Yeoman generator for ReactJS and Webpack](https://github.com/react-webpack-generators/generator-react-webpack)<br>
 
 `npm install -g generator-react-webpack` <br>
 查看generator-react-webpack的版本: <br>
