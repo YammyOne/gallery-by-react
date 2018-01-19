@@ -1,10 +1,10 @@
 # 目录结构
 > ---cfg  这里存放 webpack 配置
-> > >---base.js  webpack 基础配置
-> > > >---defaults.js  webpack 一些其他的默认配置
-> > >---dev.js       测试环境的 webpack 配置，启动 npm run start 的时候会使用这份 webpack 设置。
-> > >---dist.js      线上环境的 webpack 配置，启动 npm run dist 的时候会使用。
-> > >---test.js      做单元测试的时候使用 npm run test。
+>>---base.js  webpack 基础配置
+>>---defaults.js  webpack 一些其他的默认配置
+>>---dev.js       测试环境的 webpack 配置，启动 npm run start 的时候会使用这份 webpack 设置。
+>>---dist.js      线上环境的 webpack 配置，启动 npm run dist 的时候会使用。
+>>---test.js      做单元测试的时候使用 npm run test。
 > ---dist           webpack 存放最终打包输出的用于生产环境的项目文件
 > ---src                       # 存放开发环境项目源码
 > >---/actions/               # flux actions目录（没用到）
