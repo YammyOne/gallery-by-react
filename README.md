@@ -1,6 +1,6 @@
 # 目录结构
-|---cfg  这里存放 webpack 配置
-| |---base.js  webpack 基础配置
+>---cfg  这里存放 webpack 配置
+>>---base.js  webpack 基础配置
 | |---defaults.js  webpack 一些其他的默认配置
 | |---dev.js       测试环境的 webpack 配置，启动 npm run start 的时候会使用这份 webpack 设置。
 | |---dist.js      线上环境的 webpack 配置，启动 npm run dist 的时候会使用。
