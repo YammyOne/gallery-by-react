@@ -1,6 +1,7 @@
 
 # 介绍
 MOOC React 实战 —— 打造画廊应用 <br>
+从项目搭建到项目上线，前端er必须知道的全套开发流程————一一罗列<br>
 # 参考资源：
 https://github.com/imzyf/gallery-by-react <br>
 https://github.com/GigHubAccount/gallery-by-react
